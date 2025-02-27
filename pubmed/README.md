@@ -20,7 +20,9 @@
 
 * DOI
 
-      O DOI (Digital Object Identifier) é um identificador único para conteúdos digitais, especialmente artigos científicos, livros e teses. Ele funciona como um "CPF" para publicações acadêmicas, garantindo um link permanente para o conteúdo.
+      O DOI (Digital Object Identifier) é um identificador único para conteúdos digitais,
+      especialmente artigos científicos, livros e teses. Ele funciona como um "CPF" para publicações
+      acadêmicas, garantindo um link permanente para o conteúdo.
 
 <br/>
 
