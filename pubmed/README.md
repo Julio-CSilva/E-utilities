@@ -24,6 +24,11 @@
       especialmente artigos científicos, livros e teses. Ele funciona como um "CPF" para publicações
       acadêmicas, garantindo um link permanente para o conteúdo.
 
+* MID
+
+      O Manuscript ID é um número exclusivo que identifica cada submissão de um manuscrito a um periódico. Este número é usado para rastrear e identificar o manuscrito pelo sistema de submissão. 
+
+
 <br/>
 
 # [API OA (Open Access)](https://pmc.ncbi.nlm.nih.gov/tools/oa-service/)
@@ -109,7 +114,7 @@ pip install requests lxml
 <br/>
 
 # [API PMC ID Converter](https://pmc.ncbi.nlm.nih.gov/tools/id-converter-api/)
-Este script Python utiliza a API de conversão de IDs do PubMed Central (PMC) para converter IDs de artigos para diferentes formatos (JSON, XML ou CSV). O resultado da consulta é salvo em um arquivo formatado conforme a escolha do usuário.
+Este script Python utiliza a API que recebe IDs do PubMed Central (PMC) ou PubMed (pmid) e retorna seus outros identificadores. O resultado da consulta é salvo em JSON, XML, CSV ou HTML.
 
 ## Requisitos
 Antes de executar o script, certifique-se de ter os seguintes requisitos instalados:
@@ -128,18 +133,20 @@ pip install requests lxml
 
 ## Uso
 1. Substitua os valores das variáveis conforme necessário:
-   - `pmc_ids`: IDs dos artigos a serem convertidos (separados por vírgula).
-   - `return_format`: Formato de saída desejado (`xml`, `json` ou `csv`).
+   - `pmc_ids`: IDs dos artigos a serem buscado seus outros códigos(separados por vírgula).
+   - `type_id`: Tipo de identificador utilizado na busca
+   - `return_format`: Formato de saída desejado (`xml`, `json`, `csv` ou `html`).
    - `versions_articles`: Use "yes" para retornar todas as versões dos artigos ou "no" para apenas a versão principal.
    - `email_maintenance`: Seu e-mail (recomendado para identificação na API).
 2. Execute o script com o comando:
    ```sh
-   python script.py
+   python3 script.py
    ```
 3. O arquivo com os dados convertidos será salvo no diretório `results/` com o nome:
    - `api_pmc_id_converter(result_IDS).json` (para JSON)
    - `api_pmc_id_converter(result_IDS).xml` (para XML)
    - `api_pmc_id_converter(result_IDS).csv` (para CSV)
+   - `api_pmc_id_converter(result_IDS).html` (para HTML)
 
 <br/>
 
