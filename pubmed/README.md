@@ -48,7 +48,7 @@ pip install requests lxml
 ```
 
 ## Uso
-1. Substitua o valor do parâmetro `id` na variável `params` pelo **PMC ID** do artigo desejado.
+1. Substitua o valor da variavel`article_id` pelo **PMC ID** do artigo desejado.
 2. Execute o script com o comando:
    ```sh
    python3 script.py

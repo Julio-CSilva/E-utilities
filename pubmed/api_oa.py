@@ -2,10 +2,11 @@ import requests
 import os
 from lxml import etree
 
-url = "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi"
-params = {"id": "PMC9062866"}  # Substitua pelo PMC ID desejado
+article_id = "PMC9062866"  # Substitua pelo PMC ID desejado
 
-#requisição
+
+url = "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi"
+params = {"id": article_id}
 response = requests.get(url, params=params)
 
 #tratemento do XML

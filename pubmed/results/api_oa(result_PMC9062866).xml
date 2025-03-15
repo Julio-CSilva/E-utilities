@@ -1,0 +1,9 @@
+<OA>
+  <responseDate>2025-03-14 21:02:41</responseDate>
+  <request id="PMC9062866">https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC9062866</request>
+  <records returned-count="1" total-count="1">
+    <record id="PMC9062866" citation="Signal Transduct Target Ther. 2022 May 3; 7:146" license="CC BY" retracted="no">
+      <link format="tgz" updated="2023-08-30 00:25:09" href="ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_package/ad/04/PMC9062866.tar.gz"/>
+    </record>
+  </records>
+</OA>
