@@ -26,7 +26,8 @@
 
 * MID
 
-      O Manuscript ID é um número exclusivo que identifica cada submissão de um manuscrito a um periódico. Este número é usado para rastrear e identificar o manuscrito pelo sistema de submissão. 
+      O Manuscript ID é um número exclusivo que identifica cada submissão de um manuscrito a um periódico. 
+      Este número é usado para rastrear e identificar o manuscrito pelo sistema de submissão. 
 
 
 <br/>
